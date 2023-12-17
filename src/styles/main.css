@@ -3,8 +3,16 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #e3f2fd;
+    /*background: #e3f2fd;*/
     color: #fff;
+
+    background:
+        radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent),
+        radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent) 50px 50px,
+        linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,
+        linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
+    background-color: slategray;
+    background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
 }
 
 .container {
@@ -12,6 +20,9 @@ body {
     border-radius: 20px;
     padding: 35px 40px;
     background: black;
+
+    transform: perspective(1500px) rotateX(45deg) rotateY(-12deg) rotateZ(12deg);
+    box-shadow: 50px 60px 50px 15px rgba(0, 0, 0, .45);
 }
 
 .container header {
