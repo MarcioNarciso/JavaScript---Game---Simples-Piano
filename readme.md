@@ -9,7 +9,7 @@ Seja muito bem-vindo! Neste repositório, você encontrará um divertido piano. 
 
 ### Como Jogar
 
-1. [Acesse o jogo]()
+1. [Acesse o jogo](https://marcionarciso.github.io/JavaScript---Game---Simples-Piano/)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ou
 
